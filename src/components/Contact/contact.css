@@ -1,0 +1,191 @@
+.contactConteiner{
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+.contactText{
+    margin:40px 3vw;
+    text-align: center;
+}
+.contactH2{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+.contactH3{
+    font-weight: 300;
+    font-size: 18px;
+    border-bottom: 1px solid rgb(144, 133, 133);
+    padding-bottom: 20px;
+}
+.contactP{
+    margin: 0;
+    padding: 0;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+.contactBlok{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.contactEmail{
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgba(122, 117, 117, 0.812);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 1px;
+    margin-top: 20px;
+    
+}
+.contactTel{
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgba(122, 117, 117, 0.849);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 1px;
+    margin-top: 30px;
+}
+.contactHours{
+    width: 200px;
+    height: 100px;
+    border: 5px solid rgba(122, 117, 117, 0.818);
+    border-top-left-radius: 100px;
+    border-bottom-right-radius: 80px;
+    border-bottom-left-radius: 1px;
+    margin-top: 30px;
+}
+.email{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(149, 70, 197);
+}
+.phone{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(149, 70, 197);
+}
+.clock{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: rgb(149, 70, 197);
+}
+
+@media (min-width : 550px){
+    .contactConteiner{
+        height: 850px;
+    }
+    .contactBlok{
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        justify-content: space-around;
+    }
+    .contactEmail{
+        width: 160px;
+        height: 130px;
+    }
+    .contactTel{
+        width: 160px;
+        height: 130px;
+    }
+    .contactHours{
+        width: 160px;
+        height: 130px;
+    }
+    .email{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .phone{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .clock{
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    .contactH2{
+        font-size: 38px;
+        margin-bottom: 30px;
+        
+    }
+    .contactH3{
+        font-size: 28px;
+    }
+    .contactP{
+        line-height: 30px;
+        font-size: 24px;
+    }
+}
+@media (min-width : 780px){
+    .contactEmail{
+        width: 200px;
+    }
+    .contactTel{
+        width: 200px;
+    }
+    .contactHours{
+        width: 200px;
+    }
+}
+@media (min-width : 960px){
+    .contactConteiner{
+        flex-direction: row;
+        height: 700px;
+    }
+    .contactText{
+        width: 60vw;
+    }
+    .contactBlok{
+        flex-direction: column;
+        text-align: center;
+        justify-content: start;
+        margin-left: 40px;
+    }
+    .contactEmail{
+        margin-top: 140px;
+        
+    }
+    .contactTel{
+        margin-top: 10px;
+    }
+    .contactHours{
+        margin-top: 10px;
+    }
+}
+@media (min-width : 1021px){
+    .contactConteiner{
+        height: 750px;
+    }
+    .contactH2{
+        font-size: 48px;
+        margin-bottom: 20px;
+        
+    }
+    .contactH3{
+        font-size: 32px;
+    }
+    .contactP{
+        line-height: 35px;
+        font-size: 24px;
+    }
+    .contactEmail{
+        margin-top: 180px;
+        
+    }
+}
+@media (min-width : 1500px){
+    .contactEmail{
+        margin-top: 250px;
+    }
+    }

@@ -1,0 +1,191 @@
+h1 {
+    font-family: Quicksand, "Segoe UI", sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+h2{
+    font-family: Quicksand, "Segoe UI", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 40px;
+    margin: 50px 70px;
+}
+
+p {
+    font-family: Quicksand, "Segoe UI", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.tittle{
+   text-align: center;
+    
+}
+
+.header {
+    position: relative;
+    text-align: left;
+    background: -o-linear-gradient(30deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+    color: #fff;
+    width: 100%;
+}
+
+.inner-header {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 75vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    position: relative;
+    height: 20vh;
+    text-align: center;
+    background-color: #fff;
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 15vh;
+    margin-bottom: -7px;
+    min-height: 100px;
+    max-height: 100px;
+}
+
+.parallax > use {
+    -webkit-animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+            animation: moveForever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+}
+
+.parallax > use:nth-child(1) {
+    -webkit-animation-delay: -2s;
+            animation-delay: -2s;
+    -webkit-animation-duration: 7s;
+            animation-duration: 7s;
+}
+
+.parallax > use:nth-child(2) {
+    -webkit-animation-delay: -3s;
+            animation-delay: -3s;
+    -webkit-animation-duration: 10s;
+            animation-duration: 10s;
+}
+
+.parallax > use:nth-child(3) {
+    -webkit-animation-delay: -4s;
+            animation-delay: -4s;
+    -webkit-animation-duration: 13s;
+            animation-duration: 13s;
+}
+
+.parallax > use:nth-child(4) {
+    -webkit-animation-delay: -5s;
+            animation-delay: -5s;
+    -webkit-animation-duration: 20s;
+            animation-duration: 20s;
+}
+
+@-webkit-keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+@keyframes moveForever {
+    0% {
+        -webkit-transform: translate3d(-90px, 0, 0);
+                transform: translate3d(-90px, 0, 0);
+    }
+    100% {
+        -webkit-transform: translate3d(85px, 0, 0);
+                transform: translate3d(85px, 0, 0);
+    }
+}
+
+@media screen and (min-width: 410px){
+    h1 {
+        font-size: 30px;
+        letter-spacing: 5px;
+        margin: 10px 10px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    
+    p {
+        font-size: 16px;
+        margin: 30px 22px;
+    }
+   
+}
+
+@media screen and (min-width: 560px){
+    h1 {
+        font-size: 40px;
+        margin: 10px 10px;
+    }
+    h2{
+        font-size: 26px;
+        margin: 20px 150px;
+    }
+    
+    p {
+        font-size: 20px;
+        margin: 30px 40px;
+    }
+}
+
+@media (max-width : 768px) {
+  
+    .content {
+        height: 30vh;
+    }
+    .waves {
+        height: 40px;
+        min-height: 40px;
+    }
+}
+@media screen and (min-width: 768px){
+    h1 {
+        font-size: 50px;
+        margin: 10px 10px;
+    }
+    h2{
+        font-size: 32px;
+        margin: 20px 170px;
+    }
+    
+    p {
+        font-size: 24px;
+        margin: 30px 40px;
+    }
+}
+
+@media screen and (min-width: 1021px){
+    h1 {
+        font-size: 56px;
+        margin: 30px 10px;
+    }
+    h2{
+        font-size: 32px;
+        margin: 40px 190px;
+    }
+    
+    p {
+        font-size: 24px;
+        margin: 40px 60px;
+    }
+}

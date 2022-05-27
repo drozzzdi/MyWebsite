@@ -1,0 +1,247 @@
+.containerNav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top:0;
+    left: 0;
+    z-index: 1;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    color: rgb(59, 58, 58);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+.mobileNav .menuNav{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    position: absolute;
+    top:60px;
+    right:0px;
+    background-color: rgba(236, 240, 243, 0.932);
+    width: 100%;
+    border-top: 2px solid rgb(59, 48, 179);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.aboutUs{
+    width: 100px;
+    
+}
+
+.aboutUs:hover{
+    cursor: pointer;
+    color:#4b0b6d;
+}
+
+.offer{
+    width: 100px;
+}
+
+.offer:hover{
+    cursor: pointer;
+    color:#4b0b6d;
+}
+
+.adress{
+    width: 100px;
+}
+
+.adress:hover{
+    cursor: pointer;
+    color:#4b0b6d;
+}
+
+
+.mobileNav button{
+    text-decoration: none;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: rgb(59, 58, 58);
+    margin-top: 10px;
+    margin-right: 45px;
+    margin-bottom: 20px;
+}
+
+.desctNav button{
+    text-decoration: none;
+    text-align: center;
+    color: #0a1186;
+    border: 2px solid #575967;
+    border-radius: 4px;
+    width: 150px;
+    line-height: 40px;
+    display: inline-block;
+    font-family: Arial;
+    font-weight: 600;
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+button:hover{
+    color:#4b0b6d;
+    cursor: pointer;
+}
+
+img{
+    position: absolute;
+    top:3px;
+    left:15px;
+    max-width: 55px;
+    max-height: 55px;
+}
+
+.burgerItem{
+    position: fixed;
+    top:15px;
+    right: 30px;
+    font-size: 30px;
+    color: rgb(78, 75, 95);
+    z-index: 2;
+}
+.burgerItem:hover{
+    cursor: pointer;
+}
+.closeItem{
+    position: fixed;
+    top:15px;
+    right: 30px;
+    font-size: 30px;
+    color: rgb(78, 75, 95);
+    z-index: 2;
+}
+.closeItem:hover{
+    cursor: pointer;
+}
+
+.desctNav{
+    display: none;
+}
+
+@media screen and (min-width: 481px){
+
+    .desctNav .menuNav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    position: absolute;
+    top:0;
+    right:0px;
+    }
+
+    .desctNav button{
+        display: block;
+        margin-top: 10px;
+        width: 70px;
+    }
+    .burgerItem{
+        display: none;
+    }
+
+    .aboutUs{
+        margin-left: 10px;
+    }
+    
+    .offer{
+        margin-left: 1vw;
+    }
+
+    .adress{
+        margin-left: 80px;
+    }
+  
+    img{
+        left:42vw;
+    }
+
+    .desctNav{
+        display: block;
+    }
+
+    .mobileNav{
+        display: none;
+    }
+
+    button:hover{
+        background: linear-gradient(60deg, rgb(9, 80, 125) 0%, rgb(104, 103, 117) 100%);
+        color: #ffffff;
+        border-bottom: 2px solid #504c63;
+        cursor: pointer;
+        }
+}
+
+@media (min-width : 520px){
+    .desctNav .menuNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+        }
+    
+        .desctNav button{
+            display: block;
+            margin-top: 10px;
+            margin-right: 10px;
+            width: 80px;
+        }
+        .burgerItem{
+            display: none;
+        }
+    
+        .aboutUs{
+            margin-left: 5px;
+        }
+    
+        .offer{
+            margin-left: 5px;
+        }
+    
+        .adress{
+            margin-left: 5px;
+        }
+      
+        img{
+            left:10px;
+        }
+}
+
+@media (min-width : 768px){
+    .aboutUs{
+        margin-left: 15px;
+    }
+
+    .offer{
+        margin-left: 15px;
+    }
+
+    .adress{
+        margin-left: 15px;
+    }
+  
+    img{
+        left:10px;
+    }
+    .desctNav button{
+        width: 120px;
+    }
+
+}
+
+@media screen and (min-width: 1021px){
+    .containerNav{
+        font-size: 17px;
+    }
+    .aboutUs{
+        margin-left: 8vw;
+    }
+    .desctNav button{
+        width: 150px;
+    }
+    img{
+        left:2vw;
+    }
+}

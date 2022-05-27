@@ -1,0 +1,41 @@
+.containerAbout{
+    width: 100%;
+}
+
+.objective{
+    margin-top: 10vw;
+    margin-left:4vw;
+    width: 60vw;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.expectations{
+    margin: 10vw 4vw;
+    width: 60vw;
+    float: right;
+    text-align: right;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.h2About{
+    margin: 2vw  0;
+}
+
+.pAbout{
+    margin: 0;
+}
+span{
+    font-weight: 400;
+    color: rgb(6, 14, 72);
+}
+@media screen and (min-width: 600px){
+    .objective{
+        line-height: 40px;
+    }
+    
+    .expectations{
+        line-height: 40px;
+    }
+}
