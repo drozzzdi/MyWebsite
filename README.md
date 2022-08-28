@@ -9,6 +9,7 @@ The content of the website is the sale of web services such as website developme
 
 HTML,\
 Css,\
+RWD - mobile first,\
 React,\
 Npm,
 
