@@ -1,6 +1,6 @@
  
 # OnePage website repository.
-See DEMO\
+See [DEMO](https://web-laken.pl).\
 Site built with REACT.JS according to the 'mobile first' principle and is responsive.\ 
 It contains a simple hamburger menu, links to individual sections of the page, some interesting effects created in css.\
 The content of the website is the sale of web services such as website development.
